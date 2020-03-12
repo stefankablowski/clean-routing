@@ -26,10 +26,12 @@ module.exports = (req, res) => {
 }
 ```
 ## single.js
+```javascript
 const data = require('path to my data')
   const queryId = req.params.carId * 1^; //conver to int
   const result = data.subdata.find(r => r.id === queryId);
   res.status(200).json({ car });
+```
 
 
 
